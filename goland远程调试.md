@@ -10,13 +10,13 @@
 
 1，在goland中下载用于与远程文件同步的工具，即SourceSynchronizer
 
-![1575023355668](.\pic\1575023355668.png)
+![1575023355668](https://github.com/yiippee/go-reload/pic/1575023355668.png)
 
 2，在远程服务端需要安装ftp服务并开启，注意503时修改vsfptd.conf 配置 pam_service_name=ftp 而不是vsftpd。不知道啥原因。
 
 3，在goland  Tools--》SourceSyc配置响应的信息。并取一个名字，比如remoteServer
 
-![1575023537579](.\pic\1575023537579.png)
+![1575023537579](https://github.com/yiippee/go-reload/pic/1575023537579.png)
 
 
 
@@ -42,7 +42,7 @@ dlv debug --headless --listen=:2345 --api-version=2 --accept-multiclient
 
 
 
-![1575023930115](.\pic\1575023930115.png)
+![1575023930115](https://github.com/yiippee/go-reload/pic/1575023930115.png)
 
 
 
